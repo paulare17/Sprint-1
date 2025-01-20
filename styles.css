@@ -1,0 +1,55 @@
+header {
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+    margin: 5px;
+    flex-direction: column
+
+    
+}
+
+.primer-element {
+    display: flex;
+    background-color: blueviolet;
+    justify-content:space-around;
+    
+}
+
+.primer-element div {
+    background-color: blue;
+    margin: 5px;
+    color: red;
+    justify-content: center;
+    
+}
+
+.logo, .nav, .social {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.logo { 
+    width: 100px;
+}
+
+.nav {
+    width: 200px;
+}
+
+.social {
+    width: 100px;
+}
+
+.banner {
+    display: flex;
+    background-color: orangered;
+    justify-content: center;
+    
+}
+
+.banner-lletra {
+    display: flex;
+    background-color: orange;
+    justify-content: center;
+}
