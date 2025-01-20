@@ -1,0 +1,133 @@
+header {
+    display: flex;
+    background-color: black;
+    flex-direction: column;
+    padding: 1rem;
+    
+}
+.primer-element {
+    display: flex;
+    justify-content:space-around;
+    width: 100%;
+    background-color: rgb(48, 47, 47);
+
+}
+.primer-element div {
+    background-color: rgb(255, 0, 106);
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 1rem;
+}
+.logo, .nav, .social {
+    display: flex;
+    justify-content: left;
+}
+.logo { 
+    width: 100px;
+}
+.nav {
+    width: 200px;
+    flex-grow: 3;
+}
+.social {
+    width: 100px;
+}
+
+.contenedor-banner{
+    display: flex;
+    background-color: black;
+    flex-direction: column;
+    padding-top: 1rem;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    background-color: orange;
+}
+
+.banner-lletra {
+    display: flex;
+    background-color: yellow;
+    width: 90%;
+}
+
+/******** lo de dalt està bé ****/
+
+main {
+    display: flex;
+    background-color: black;
+    padding: 1rem;
+}
+
+.segon-element {
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+    background-color: rgb(48, 47, 47);
+    gap: 1rem;
+   
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+.art1, .art2, .art3, .art4 {
+    background-color: rgb(31, 64, 196); 
+    flex-basis: calc(50% - 2rem); /* Dos articles per fila */
+    flex-grow: 1;
+    margin: 1rem;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.navegacio {
+    display: flex;
+    width: 100%;
+    background-color: rgb(109, 130, 215);
+    margin: 1rem 0;
+    padding: 1rem;
+
+}
+
+
+.publi {
+    display: flex;
+    background-color: rgb(128, 0, 87);
+    flex-direction: column;
+    width: 25%;
+    margin-left : 1rem;
+    
+}
+
+.publi div {
+    background-color: yellow;
+    margin: 1rem;
+    padding: 1rem;
+    
+}
+
+/* el peu també està fet*/
+
+footer {
+    display: flex;
+    background-color: black;
+    flex-direction: row;
+    padding: 1rem;
+}
+
+.peu {
+    display: flex;
+    background-color: rgb(215, 214, 115);
+    width: 100%;
+    text-align: center;
+    flex-direction: row;
+    padding: 1rem;
+
+}
