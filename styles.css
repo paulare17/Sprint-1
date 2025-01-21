@@ -2,7 +2,7 @@ header {
     display: flex;
     background-color: black;
     flex-direction: column;
-    padding: 20px;
+    padding: 1rem;
     
 }
 .primer-element {
@@ -49,7 +49,7 @@ header {
 .banner-lletra {
     display: flex;
     background-color: yellow;
-    width: 90%
+    width: 90%;
 }
 
 /******** lo de dalt està bé ****/
@@ -57,40 +57,50 @@ header {
 main {
     display: flex;
     background-color: black;
-    justify-content: space-around;
-    margin-top: 1rem;
     flex-direction: row;
     padding: 1rem;
 }
 
-.art1, .art2, .art3, .art4 {
+.segon-element {
     display: flex;
-    background-color: green;
-    
-    justify-content: space-evenly;
-    flex-direction: row;
-    flex-wrap: wrap;
+    justify-content:space-between;
     width: 100%;
+    background-color: rgb(48, 47, 47);
+    
+}
+
+.primeralinea, .segonalinea {
+    flex-direction: row;
+    width: 100%;
+    background-color: rgb(31, 64, 196);
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 1rem;
 
 }
+
 
 .navegacio {
     display: flex;
-    background-color:pink;
-    margin: 5px;
-    color: black;
     justify-content: center;
-    flex-direction: row;
     width: 100%;
+    align-content: space-around;
+    background-color: rgb(109, 130, 215);
+    flex-direction: row;
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 1rem;
+
 }
+
 
 .publi {
     display: flex;
     background-color: green;
-    margin: 5px;
     color: yellowgreen;
-    justify-content: top;
-    flex-direction: row;
+    justify-content: center;
+    flex-direction: column;
+    
 }
 
 .publi div {
