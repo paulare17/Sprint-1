@@ -3,9 +3,8 @@ header {
     background-color: black;
     justify-content: space-around;
     margin: 5px;
-    flex-direction: column
-
-    
+    flex-direction: column;
+    border: 20px;
 }
 
 .primer-element {
@@ -52,4 +51,26 @@ header {
     display: flex;
     background-color: orange;
     justify-content: center;
+}
+
+
+
+main {
+        display: flex;
+        background-color: black;
+        justify-content: space-around;
+        margin: 5px;
+        flex-direction: column;
+        border: 20px;
+
+}
+
+.art1, .art2, .art3, .art4 {
+    display: flex;
+    background-color: green;
+    margin: 5px;
+    color: yellowgreen;
+    justify-content: center;
+    flex-direction: row;
+
 }
