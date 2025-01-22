@@ -53,7 +53,6 @@ header {
     width: 100%;
     margin: 1rem;
 
-    
 }
 
 /******** lo de dalt està bé ****/
@@ -62,24 +61,26 @@ main {
     display: flex;
     background-color: black;
     padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
+
+
 
 .segon-element {
     display: flex;
     justify-content:space-between;
+    flex-direction: row;
     width: 100%;
     background-color: rgb(48, 47, 47);
-    gap: 1rem;
    
 }
 
 .articles {
     display: flex;
     flex-wrap: wrap;
-    width: 70%;
-    margin: 1rem;
-    padding: 1rem;
-    font-size: 1rem;
+    width: 100%;
+
 }
 
 .art1, .art2, .art3, .art4 {
@@ -95,8 +96,10 @@ main {
     display: flex;
     width: 100%;
     background-color: rgb(109, 130, 215);
-    margin: 1rem 0;
+    margin: 1rem;
     padding: 1rem;
+    align-self: flex-end;
+    flex-basis: 100%;
 
 }
 
